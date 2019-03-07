@@ -1,0 +1,11 @@
+.ipynb_checkpoints/
+
+__pycache__/
+
+Banana_Data/
+
+Banana.exe
+
+unity-environment.log
+
+UnityPlayer.dll
