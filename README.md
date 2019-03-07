@@ -17,6 +17,17 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 The task is episodic, and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
 
+### Dependencies
+
+You can follow up [this intruction](https://github.com/udacity/deep-reinforcement-learning#dependencies) to setup environment. Note that if you enconter an error while installing torch something like below, then you have to install pytorch separately, please refer to [this site](https://pytorch.org/get-started/previous-versions/)
+
+```
+Collecting torch==0.4.0 (from unityagents==0.4.0)
+Could not find a version that satisfies the requirement torch==0.4.0 (from unityagents==0.4.0) (from versions: 0.1.2, 0.1.2.post1)
+No matching distribution found for torch==0.4.0 (from unityagents==0.4.0)
+```
+
+
 ### Getting Started
 
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
